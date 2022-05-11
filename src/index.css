@@ -1,3 +1,4 @@
+/*
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +6,66 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to bottom right, #31e7c0 1%, #29e075 50%, #40e9d2);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom right, #31e7c0 1%, #40e9d2 50%, #22ffbd);
+}
+
+
+*/
+
+
+.profilepic{
+  height: 450px;
+}
+
+.searchfield{
+  background-color: rgb(217, 237, 255);
+}
+
+
+table, th, td {
+  text-align: center;
+  }
+
+div .submit-form{
+  display: block;
+  position: relative;
+}
+
+div .submit-form{
+  position: relative;
+  display: block;
+  padding: 30px;
+  z-index: 2;
+}
+
+
+.desc{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: desc;
+}
+.desc:hover{
+  white-space: pre-line;
+  
+}
+
+.thumbnail{
+  width: 100%;
+  height: 140px;
 }
