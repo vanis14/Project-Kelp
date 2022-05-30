@@ -1,4 +1,4 @@
-#Project Kelp Front End
+# Project Kelp Front-end
 This repository only contains the front-end of the project, for the back-end repository please visit the link below.
 https://github.com/vanis14/Project-Kelp-backend
 
